@@ -20,8 +20,9 @@ void loop() {
     analogWrite(GREEN, 0);
     for(i = 0; i <= 15; i++){
       analogWrite(RED, 255);
-      delay(500);
+      delay(400);
       analogWrite(RED, 0);
+      delay(400);
     }
     analogWrite(GREEN, 255);
   }

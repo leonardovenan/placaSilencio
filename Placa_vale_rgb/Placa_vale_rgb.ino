@@ -23,7 +23,6 @@ void loop() {
       delay(400);
       analogWrite(RED, 0);
       delay(400);
-      i++;
     }
     analogWrite(GREEN, 255);
   }
